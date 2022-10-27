@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "344406273703",
+    "project_id": "appicook-dcc87",
+    "storage_bucket": "appicook-dcc87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344406273703:android:cd9bbca7650ad3e95ab582",
+        "android_client_info": {
+          "package_name": "br.ulbra.appicook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344406273703-5qnijfvjv4lq0flh84kq8atha8fjcusn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEIUT_3yGxYlHR0o5Lo2202FBzCiqajO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344406273703-5qnijfvjv4lq0flh84kq8atha8fjcusn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

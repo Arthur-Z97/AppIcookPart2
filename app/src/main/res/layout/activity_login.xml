@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_red">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="150dp"
+        android:text="Icook"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="50dp"
+        android:hint="E-MAIL"
+        android:textColorHint="@color/black" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edEmail"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/edPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:hint="Senha"
+            android:inputType="numberPassword"
+            android:maxLines="1"
+            android:padding="15dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edEmail"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Entrar"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/txtCad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btEntrar"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:text="Não tem uma conta? Clique aqui!"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="311dp"
+        android:layout_height="189dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="100dp"
+        app:srcCompat="@drawable/ahhhhhhhhhh1" />
+
+    <ProgressBar
+
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

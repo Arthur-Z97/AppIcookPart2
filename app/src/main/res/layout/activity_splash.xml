@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_red"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:src="@drawable/ahhhhhhhhhh1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_weight="1"
+        android:gravity="top|center"
+        android:text="Icook"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:id="@+id/textA"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="V1.0.0.1 2022"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="15dp"/>
+
+
+</LinearLayout>
